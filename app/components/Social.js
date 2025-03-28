@@ -9,10 +9,10 @@ const Social = () => {
   return (
     <div className="mr-5 flex flex-col space-y-4">
       <div className="">
-        <Image src={Insta} alt="logo-instagram" width={25} height="auto" />
+        <Image src={Insta} alt="logo-instagram" width={30} height="auto" />
       </div>
       <div className="ml-1">
-        <Image src={Linked} alt="logo-linkedin" width={25} height="auto" />
+        <Image src={Linked} alt="logo-linkedin" width={30} height="auto" />
       </div>
     </div>
   );

@@ -58,8 +58,8 @@ const NavBar = () => {
           {/* // Menu when screen is bigger den tablet */}
           <ul className="hidden lg:flex  space-x-24 items-center mr-24 2xl:pe-28 text-[#8c8bb0]  ">
             <a href="#about">About</a>
-            <a href="#photos">Gallery</a>
-            <a href="#contact">Code</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#code">Code</a>
           </ul>
         </div>
         {/* Conditional rendering of the hamburger menu items */}
@@ -74,11 +74,11 @@ const NavBar = () => {
             >
               About
             </a>
-            <a href="#photos" className="text-[#8c8bb0] hover:text-white">
+            <a href="#gallery" className="text-[#8c8bb0] hover:text-white">
               Photos
             </a>
-            <a href="#contact" className="text-[#8c8bb0] hover:text-white">
-              Contact
+            <a href="#code" className="text-[#8c8bb0] hover:text-white">
+              Code
             </a>
           </div>
         </div>
